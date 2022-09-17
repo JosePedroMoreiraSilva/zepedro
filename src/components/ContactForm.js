@@ -18,7 +18,7 @@ function ContactForm() {
     };
 
     fetch("https://go-futher.vercel.app/api/contact", {
-      method: "POST",
+      method: "GET",
       headers: {
         Accept: "application/json, text/plain, */*",
         "Content-Type": "application/json",
