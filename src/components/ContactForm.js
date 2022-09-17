@@ -48,7 +48,7 @@ function ContactForm() {
                     Contacto
                   </h4>
                   <p className="leading-relaxed mt-1 mb-4 text-blueGray-500">
-                    Complete this form and we will get back to you in 24 hours.
+                    Completa este formulário com a tua questão.
                   </p>
                   <div className="relative mb-3 mt-8">
                     <label
