@@ -17,8 +17,8 @@ function ContactForm() {
       message: message,
     };
 
-    fetch("https://go-futher.vercel.app/api/contact", {
-      method: "GET",
+    fetch("https://zepedro.vercel.app/api/mail", {
+      method: "POST",
       headers: {
         Accept: "application/json, text/plain, */*",
         "Content-Type": "application/json",
