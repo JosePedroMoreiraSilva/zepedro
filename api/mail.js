@@ -21,6 +21,7 @@ module.exports = async (req, res) => {
       });
   });
 
+  //mudar isto para variáveis de ambiente
     const mailData = {
       from: {
           address: "gofuther.company@gmail.com",

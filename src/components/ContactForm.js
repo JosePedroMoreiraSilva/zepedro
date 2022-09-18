@@ -12,9 +12,9 @@ function ContactForm() {
     console.log("Sending");
 
     let data = {
-      name: name,
-      email: email,
-      message: message,
+      name: "teste",
+      email: "sfdkfdkf",
+      message: "fdfdfdfddf",
     };
 
     fetch("https://zepedro.vercel.app/api/mail", {
@@ -55,12 +55,13 @@ function ContactForm() {
                       className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                       htmlFor="full-name"
                     >
-                      Full Name
+                      Nome 
                     </label>
                     <input
                       type="text"
                       className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full ease-linear transition-all duration-150"
-                      placeholder="Full Name"
+                      placeholder="Nome"
+                      value={name}
                       onChange={(e) => {
                         setName(e.target.value);
                       }}
@@ -78,6 +79,7 @@ function ContactForm() {
                       type="email"
                       className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none w-full focus:ring ease-linear transition-all duration-150"
                       placeholder="Email"
+                      value={email}
                       onChange={(e) => {
                         setEmail(e.target.value);
                       }}
@@ -89,11 +91,12 @@ function ContactForm() {
                       className="block uppercase text-blueGray-600 text-xs font-bold mb-2"
                       htmlFor="message"
                     >
-                      Message
+                      Mensagem
                     </label>
                     <textarea
                       className="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-sm shadow focus:outline-none w-full focus:ring"
                       placeholder="Type a message..."
+                      value={message}
                       onChange={(e) => {
                         setMessage(e.target.value);
                       }}
