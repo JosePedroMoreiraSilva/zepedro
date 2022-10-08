@@ -96,7 +96,7 @@ export default function Profile() {
                     <div className="w-full lg:w-9/12 px-4">
                       <p className="mb-4 text-lg leading-relaxed text-blueGray-700">
                         Eu sou o José Pedro Silva, tenho 26 anos e  vivo no Porto.
-                        Sou fullstack developer e apaixonado por inovação e tecnológia.
+                        Sou fullstack developer e apaixonado por inovação e tecnologia.
                       </p>
                     </div>
                   </div>
