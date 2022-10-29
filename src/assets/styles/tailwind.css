@@ -262,6 +262,7 @@ Interactive
 Add the correct display in Chrome and Safari.
 */
 
+
 summary {
   display: list-item;
 }
@@ -3014,6 +3015,8 @@ select {
   }
 }
 
+
+
 @media (min-width: 1280px) {
   .xl\:mb-0 {
     margin-bottom: 0px;
@@ -3038,3 +3041,4 @@ select {
 
 @media (min-width: 1536px) {
 }
+
