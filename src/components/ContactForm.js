@@ -110,7 +110,7 @@ function ContactForm() {
                         handleSubmit(e);
                       }}
                     >
-                      Send Message
+                      Enviar Mensagem
                     </button>
                   </div>
                 </div>

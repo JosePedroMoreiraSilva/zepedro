@@ -6,7 +6,10 @@ import Serverless from "../assets/img/serverless.png";
 import Python from "../assets/img/python.jpeg";
 import HTML from "../assets/img/html_css.jpeg";
 
+import zipJS from "../assets/sources/formJS.zip";
+
 export default function Formacao() {
+  const VideoJS = "https://youtu.be/nPXO2oHVmu4";
   return (
     <>
       {/* <Navbar transparent /> */}
@@ -32,9 +35,7 @@ export default function Formacao() {
                     Formações
                   </h1>
                   <p className="mt-4 text-lg text-blueGray-200">
-                    This is a simple example of a Landing Page you can build
-                    using Notus React. It features multiple CSS components based
-                    on the Tailwind CSS design system.
+                    Transformação digital começa agora.
                   </p>
                 </div>
               </div>
@@ -77,7 +78,7 @@ export default function Formacao() {
                     </div>
                     <h6 className="text-xl font-semibold">Formação em React</h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Formações em React desc.
+                      {/* Formações em ReactJS */}
                     </p>
                   </div>
                 </div>
@@ -97,7 +98,7 @@ export default function Formacao() {
                     <h6 className="text-xl font-semibold">
                       Formação em NodeJS
                     </h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">Desc.</p>
+                    <p className="mt-2 mb-4 text-blueGray-500">{/* Desc. */}</p>
                   </div>
                 </div>
               </div>
@@ -117,7 +118,7 @@ export default function Formacao() {
                     <h6 className="text-xl font-semibold">
                       Formação Fullstack
                     </h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">desc.</p>
+                    <p className="mt-2 mb-4 text-blueGray-500">{/* desc. */}</p>
                   </div>
                 </div>
               </div>
@@ -143,7 +144,7 @@ export default function Formacao() {
                       Serverless Functions
                     </h6>
                     <p className="mt-2 mb-4 text-blueGray-500">
-                      Formações em React desc.
+                      {/* Formações em React desc. */}
                     </p>
                   </div>
                 </div>
@@ -162,7 +163,7 @@ export default function Formacao() {
                       />
                     </div>
                     <h6 className="text-xl font-semibold">Python</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">desc</p>
+                    <p className="mt-2 mb-4 text-blueGray-500">{/* desc */}</p>
                   </div>
                 </div>
               </div>
@@ -180,7 +181,7 @@ export default function Formacao() {
                       />
                     </div>
                     <h6 className="text-xl font-semibold">HTML & CSS</h6>
-                    <p className="mt-2 mb-4 text-blueGray-500">desc</p>
+                    <p className="mt-2 mb-4 text-blueGray-500">{/* desc */}</p>
                   </div>
                 </div>
               </div>
@@ -194,14 +195,45 @@ export default function Formacao() {
               <div className="w-full lg:w-6/12 px-4">
                 <h2 className="text-4xl font-semibold">Projetos</h2>
                 <p className="text-lg leading-relaxed m-4 text-blueGray-500">
-                  According to the National Oceanic and Atmospheric
-                  Administration, Ted, Scambos, NSIDClead scentist, puts the
-                  potentially record maximum.
+                  Recursos dos cursos
                 </p>
               </div>
             </div>
             <div className="flex flex-wrap">
-              <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+              <div className="flex flex-wrap justify-center">
+                {/* <div className="w-6/12 sm:w-4/12 px-4"> */}
+
+                {/* <video
+                  controls
+                  controlsList="nodownload"
+                  className="shadow rounded max-w-full h-auto align-middle border-none"
+                >
+                  <source src={VideoJS} type="video/mp4" />
+                </video> */}
+                <div className="video-responsive">
+                  <iframe
+                    width="853"
+                    height="480"
+                    src={`https://www.youtube.com/embed/nPXO2oHVmu4`}
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    title="Embedded youtube"
+                  />
+                </div>
+                <div className="mt-3">
+                  <button
+                    className="bg-lightBlue-500 text-white active:bg-lightBlue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                    type="button"
+                  >
+                    <i className="fas fa-download"></i>
+                    <a href={zipJS}> Download ficheiros </a>
+                  </button>
+                </div>
+
+                {/* </div> */}
+              </div>
+              {/* <div className="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
                 <div className="px-6">
                   <img
                     alt="..."
@@ -340,7 +372,7 @@ export default function Formacao() {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
