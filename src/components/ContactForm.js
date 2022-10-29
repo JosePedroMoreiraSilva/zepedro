@@ -9,14 +9,6 @@ function ContactForm() {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    console.log("Sending");
-
-    let data = {
-      name: "teste",
-      email: "sfdkfdkf",
-      message: "fdfdfdfddf",
-    };
-
     fetch("https://zepedro.vercel.app/api/mail", {
       method: "POST",
       headers: {
