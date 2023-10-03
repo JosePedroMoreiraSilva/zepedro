@@ -29,16 +29,16 @@ const Hero = () => {
               sequence={[
                 "Web Developer",
                 2000,
-                "Freelancer",
+                "Web Developer | Freelancer",
                 2000,
-                "Tech Leader",
+                "Web Developer | Freelancer | Tech Leader",
                 2000,
                 "",
               ]}
               speed={30}
               wrapper="h2"
               repeat={Infinity}
-              className="text-yellow-500 text-4xl font-bold sm:text-3xl"
+              className="text-blue-950 text-4xl font-bold sm:text-3xl"
             />
             <p
               // data-aos="fade-up"
@@ -50,13 +50,13 @@ const Hero = () => {
           <div data-aos="fade-up" className="buttons flex gap-5">
             <a
               href=""
-              className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-yellow-500"
+              className=" bg-black text-[1rem] text-white px-10 py-2 sm:px-8 rounded-lg font-bold  hover:text-blue-500"
             >
               <span> Hire Me</span>
             </a>
             <a
               href={resumePDF}
-              className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
+              className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-blue-500"
               download
             >
               <div className="flex items-center gap-1">
@@ -87,11 +87,11 @@ const Hero = () => {
           <div className="relative h-[88%] w-fit flex items-center sm:items-end">
             <img
             data-aos="fade-up"
-              className=" h-[90%]  w-full object-cover md:h-[95%] md:m-auto sm:m-0"
+              className=" h-[90%] w-full object-cover md:h-[95%] md:m-auto sm:m-0 rounded-image"
               src={me}
               alt="mine"
             />
-            <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
+            {/* <div className=" absolute bottom-10 md:bottom-3 right-8 md:right-2">
               <div data-aos="zoom-in" data-aos-duration="1000"  className=" relative cursor-pointer">
                 <img
                   className=" w-[135px] md:w-[90px] circle-text"
@@ -102,7 +102,7 @@ const Hero = () => {
                   className=" text-black absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
                 />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

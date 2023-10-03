@@ -12,7 +12,7 @@ import {
   SiExpress,
 } from "react-icons/si";
 import { GrCode } from "react-icons/gr";
-import { SiNextdotjs,SiMicrosoftsqlserver,SiPostgresql,SiMysql,SiDotnet } from "react-icons/si";
+import { SiNextdotjs,SiMicrosoftsqlserver,SiPostgresql,SiMysql,SiDotnet,SiPython } from "react-icons/si";
 import { FaReact,FaAngular,FaAws } from "react-icons/fa";
 import { IoLogoNodejs } from "react-icons/io";
 
@@ -107,11 +107,11 @@ const Skills = ({ darkMode }) => {
               <SkillBox
                 className=""
                 logo={
-                  <GrCode/>
+                  <SiPython/>
                 }
                 black={"black"}
                 white={"white"}
-                skill={"C++"}
+                skill={"Python"}
               />
               <SkillBox
                 className=""
